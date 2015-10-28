@@ -14,8 +14,6 @@
 /************************************************************************/
 
 void set_pwm(){
-	DDRD |= (1<<PD6);
-	PORTD |= (1<<PD6);
 	
 	uint8_t temp = Usart::getBit(0);
 	PWM::ID pwm_nr = PWM::ID(temp);

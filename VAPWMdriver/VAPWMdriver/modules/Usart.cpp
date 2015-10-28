@@ -1,4 +1,5 @@
 ﻿#include "Usart.h"
+#include "Freq.h"
 
 // inicjalizacja wlasciwosci statycznych klasy Usart
 Usart::Scenario Usart::scenarios[256];

@@ -4,6 +4,7 @@
 #include "../scenario/state.h"
 #include "../scenario/voltometer.h"
 #include "../scenario/dc_modulation.h"
+#include "../scenario/freq_modulation.h"
 //#include "../scenario/temperature.h"
 //#include "../scenario/temperatureSensor.h"
 //#include "../scenario/paramsTest.h"
